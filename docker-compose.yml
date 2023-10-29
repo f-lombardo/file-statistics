@@ -1,0 +1,5 @@
+version: '3'
+services:
+  file-statistics:
+    build: .
+    working_dir: /app
