@@ -22,8 +22,8 @@ Then to run the program:
 npm start
 ```
 ### Docker
-This is best suited for URL files, even if you could mount a volume containing text files. Run
-`docker compose run file-statistics npm start`
+This is best suited for URL files, even if you could use the `fixtures` mounted volume. Run:
+`docker compose run app npm start`
 
 ## Running tests
 After having prepared the environment (see above) run `npm run test`
