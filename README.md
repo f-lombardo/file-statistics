@@ -23,7 +23,7 @@ npm start
 ```
 ### Docker
 This is best suited for URL files, even if you could use the `fixtures` mounted volume. Run:
-`docker compose run app npm start`
+`docker compose run --rm app npm start`
 
 ## Running tests
 After having prepared the environment (see above) run `npm run test`
